@@ -1,0 +1,92 @@
+/* game board table */
+h1 {
+  color: blue;
+  font-style: italic;
+  text-align: center;
+}
+#game{
+  position: relative;
+}
+#board, #pieces{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+/* #pieces td{ */
+  /* background-color: blueviolet; */
+  /* opacity: 50%; */
+  /* border-radius: 50%; */
+/* } */
+
+/* pieces are div within game table cells: draw as colored circles */
+/* #pieces { */
+  /* width: 50px; */
+  /* height: 50px; */
+  /* border: solid 1px #666; */
+  /* z-index: 1; */
+  /* position: absolute; */
+  /* top: 10px; */
+/*    */
+/* } */
+.piece-1{
+  /* TODO: make into circles */
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  /* z-index: 3; */
+  background-color: red;
+}
+
+.piece-2{
+  /* TODO: make into circles */
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  /* z-index: 3; */
+  background-color: blue;
+}
+
+/*  */
+/* .piece { */
+  /* TODO: make into circles */
+  /* margin: 5px; */
+  /* width: 80%; */
+  /* height: 80%; */
+  /* border-radius: 50% */
+/* } */
+
+
+/* TODO: make pieces red/blue,  depending on player 1/2 piece */
+
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+  border: dashed 1px lightgray;
+  z-index: 2;
+}
+
+#column-top td:hover {
+  background-color: gold;
+  z-index: 4;
+}
+
+.two {
+  z-index: 100;
+}
+
+
+
+
+
+
+
+/*     id=#    &    class=.       */
